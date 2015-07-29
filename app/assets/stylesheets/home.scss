@@ -1,0 +1,27 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #000;
+}
+
+.profile-picture {
+  img {
+    width: 200px; 
+  }
+}
+
+a {
+  color: #E278CD;
+}
+
+.homepage-link {
+  // padding: 10px;
+  margin: 10px;
+}
+
+.username {
+  color: #E278CD;
+  font-weight: bold;
+}
