@@ -1,0 +1,25 @@
+<table>
+  <tr>
+    <td>
+      <div class="username">
+        <%= @name %>
+      </div>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+    <div class="profile-picture">
+      <%= image_tag 'me.jpg' %>
+    </div>
+    </td>
+    <td>
+    <ul>
+      <li><%= link_to 'Обо мне', '#', class: 'homepage-link' %></li>
+      <li><%= link_to 'Мои работы', '#', class: 'homepage-link' %></li>
+      <li><%= link_to 'Сделать заказ', '#', class: 'homepage-link' %></li>
+      <li><%= link_to 'Контакты', '#', class: 'homepage-link' %></li>
+    </ul>
+    </td>
+  </tr>
+</table>
